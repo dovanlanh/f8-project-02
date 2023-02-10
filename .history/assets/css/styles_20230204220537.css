@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+.main-content {
+    width: 1170px;
+}
+/* header */
+
+.hearder .body {
+    display: flex;
+}
+.nav ul {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+.nav a {
+    padding: 8px 21px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #5F5B53;
+}
